@@ -1,0 +1,194 @@
+\documentclass[xcolor=table]{beamer}
+\usepackage{fontspec}
+\usepackage{amsmath, amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+\setmainfont{Times New Roman}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\title{Using AI to Model Real-World Systems:\\From Weather to Economics}
+\author{Seyyed Ali Mohammadiyeh\\\small Department of Pure Mathematics, University of Kashan}
+\date{April 14, 2025\\\small IWDS\&AI 2025, University of Kufa, Iraq}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Motivation}
+    \begin{itemize}
+        \item Real-world systems are dynamic and complex
+        \item Traditional models often struggle with prediction
+        \item AI introduces powerful tools for modeling complexity
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Real-World Examples}
+    \begin{itemize}
+        \item Weather systems
+        \item Economic fluctuations
+        \item Biological ecosystems
+    \end{itemize}
+\end{frame}
+
+\section{Classical Approaches}
+
+\begin{frame}{Mathematical Modeling}
+    \begin{itemize}
+        \item Differential equations
+        \item Dynamical systems theory
+        \item Phase space analysis
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Challenges with Traditional Methods}
+    \begin{itemize}
+        \item Sensitive dependence on initial conditions
+        \item Hard to capture nonlinearities
+        \item Require deep domain knowledge
+    \end{itemize}
+\end{frame}
+
+\section{Artificial Intelligence in Modeling}
+
+\begin{frame}{Why AI?}
+    \begin{itemize}
+        \item Learns from data
+        \item Can model complex, nonlinear systems
+        \item Complements domain knowledge
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Types of Models}
+    \begin{itemize}
+        \item Feedforward Neural Networks
+        \item Recurrent Neural Networks (RNNs)
+        \item Long Short-Term Memory (LSTM) Networks
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{LSTM Networks}
+    \begin{itemize}
+        \item Specialized RNNs for sequences
+        \item Handle long-term dependencies
+        \item Widely used in time series forecasting
+    \end{itemize}
+\end{frame}
+
+\section{Case Studies}
+
+\begin{frame}{Weather Forecasting}
+    \begin{itemize}
+        \item Traditional: PDEs and numerical simulations
+        \item AI: LSTMs trained on historical data
+        \item Hybrid: Data-driven + physical models
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Economic Trend Prediction}
+    \begin{itemize}
+        \item Stock prices, inflation, GDP trends
+        \item Challenges: noise, sudden shifts
+        \item AI models trained on multivariate time series
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Comparison: Classical vs. AI}
+    \begin{tabular}{@{}lll@{}}
+        \toprule
+        Feature & Classical & AI \\
+        \midrule
+        Interpretability & High & Low \\
+        Data Dependency & Low & High \\
+        Flexibility & Low & High \\
+        \bottomrule
+    \end{tabular}
+\end{frame}
+
+\section{Combining AI and Theory}
+
+\begin{frame}{Hybrid Modeling Approaches}
+    \begin{itemize}
+        \item Neural ODEs
+        \item Physics-informed Neural Networks (PINNs)
+        \item Model calibration using data
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Strengths of Blending Approaches}
+    \begin{itemize}
+        \item Leverage structure from theory
+        \item Improve generalization
+        \item Retain interpretability
+    \end{itemize}
+\end{frame}
+
+\section{Challenges}
+
+\begin{frame}{Limitations of AI Models}
+    \begin{itemize}
+        \item Require large amounts of data
+        \item Susceptible to overfitting
+        \item Lack of interpretability
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Ethical and Practical Concerns}
+    \begin{itemize}
+        \item Data privacy
+        \item Bias in models
+        \item Reproducibility and trust
+    \end{itemize}
+\end{frame}
+
+\section{Future Directions}
+
+\begin{frame}{Trends and Opportunities}
+    \begin{itemize}
+        \item Explainable AI for dynamics
+        \item Real-time hybrid simulations
+        \item Open datasets and collaboration
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Call for Collaboration}
+    \begin{itemize}
+        \item Bridge AI and mathematics
+        \item Cross-disciplinary research
+        \item Practical problem-solving
+    \end{itemize}
+\end{frame}
+
+\section{Conclusion}
+
+\begin{frame}{Summary}
+    \begin{itemize}
+        \item AI complements traditional models in dynamic systems
+        \item LSTMs and neural networks are powerful tools
+        \item Blending theory with data yields robust models
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Thank You!}
+    \begin{center}
+        \Huge Questions?\\[1cm]
+        \normalsize Seyyed Ali Mohammadiyeh\\
+        Department of Pure Mathematics\\
+        University of Kashan\\
+        \texttt{https://github.com/BaseMax}
+    \end{center}
+\end{frame}
+
+\end{document}
